@@ -1,0 +1,84 @@
+.Main{
+    border-top-left-radius:24px ;
+    border-top-right-radius:24px ;
+    height: 816px;
+    width: 100%;
+    background-color: #020201;
+    
+}
+
+.Primary_text1{
+    color: white;
+    margin-top: 80px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    position:absolute;
+    text-shadow: #020201;
+    
+
+}
+
+.Primary_text2{
+    
+    color: #0290FF;
+    padding-top: 35px;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.Title{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Sub_div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.Sub_text{
+    color: white;
+    font-weight: 100;
+}
+
+.Sub_para_text{
+    font-size: 0.9rem;
+    margin-top: 30px;
+    color: #AAAAAA;
+    text-align: center;
+}
+
+.Inner_div{
+    margin-top: 30px;
+}
+
+.box2{
+   
+display: flex;
+justify-content: center;
+    align-items: center;
+
+}
+
+.Card2{
+    padding: 40px;
+    height: 600px;
+  width: 500px;
+}
+
+.Card_text{
+    margin-top: 20px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+.Card_subtext{
+    margin-top: 90px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #AAAAAA;
+}
