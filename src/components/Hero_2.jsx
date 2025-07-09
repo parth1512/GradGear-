@@ -161,7 +161,7 @@ export const Hero_2 = () => {
       
       try {
         // Call backend API
-        const response = await fetch('http://localhost:5001/api/recommendations', {
+        const response = await fetch('https://gradgear.onrender.com/api/recommendations', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

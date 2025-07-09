@@ -42,7 +42,7 @@ const ResultsPage = ({ recommendations, userEmail, onBack, showNotification, not
     try {
       setLoading(true);
       
-      const response = await fetch('http://localhost:5001/api/send-email', {
+      const response = await fetch('https://gradgear.onrender.com/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
