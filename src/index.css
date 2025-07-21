@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Monument Extended';
-  src: url('/assets/fonts/MonumentExtended-Regular.otf') format('opentype');
+  font-family: 'MonumentExtended';
+  src: url('/fonts/MonumentExtended-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Monument Extended';
-  src: url('/assets/fonts/MonumentExtended-Bold.otf') format('opentype');
+  font-family: 'MonumentExtended';
+  src: url('/fonts/MonumentExtended-Ultrabold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -26,7 +26,7 @@
 }
 
 body {
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'MonumentExtended', Arial, sans-serif;
   color: var(--black);
   overflow-x: hidden;
   line-height: 1.5;
@@ -43,7 +43,7 @@ body {
 
 button {
   cursor: pointer;
-  font-family: 'Monument Extended', sans-serif;
+  font-family: 'MonumentExtended', Arial, sans-serif;
   border: none;
 }
 
